@@ -90,12 +90,12 @@ call s:HL('WildMenu',                       s:gray2,    s:cyan,	    '')
 
 " Standard Syntax
 call s:HL('Comment',                        s:gray4,    '',         'italic')
-call s:HL('Constant',                       s:orange,   '',         '')
-call s:HL('String',                         s:green,    '',         '')
-call s:HL('Character',                      s:green,    '',         '')
+call s:HL('Constant',                       s:red,   '',         '')
+call s:HL('String',                         s:red,    '',         '')
+call s:HL('Character',                      s:red,    '',         '')
 call s:HL('Identifier',                     s:red,      '',         'none')
-call s:HL('Function',                       s:blue,     '',         '')
-call s:HL('Statement',                      s:purple,   '',         'none')
+call s:HL('Function',                       s:cyan,     '',         '')
+call s:HL('Statement',                      s:orange,   '',         'none')
 call s:HL('Operator',                       s:cyan,     '',         '')
 call s:HL('PreProc',                        s:cyan,     '',         '')
 call s:HL('Include',                        s:blue,     '',         '')
@@ -205,11 +205,12 @@ call s:HL('markdownUrl',                    s:purple,   '',         '')
 call s:HL('markdownUrlTitleDelimiter',      s:green,    '',         '')
 
 " Ruby
+call s:HL('rubyBlockParameter',             s:cyan,     '',         '')
 call s:HL('rubyInterpolation',              s:cyan,     '',         '')
-call s:HL('rubyInterpolationDelimiter',     s:indigo,   '',         '')
+call s:HL('rubyInterpolationDelimiter',     s:purple,   '',         '')
 call s:HL('rubyRegexp',                     s:cyan,     '',         '')
 call s:HL('rubyRegexpDelimiter',            s:indigo,   '',         '')
-call s:HL('rubyStringDelimiter',            s:green,    '',         '')
+call s:HL('rubyStringDelimiter',            s:purple,    '',         '')
 
 " Sass
 call s:HL('sassAmpersand',                  s:red,      '',         '')
